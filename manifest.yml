@@ -6,3 +6,5 @@ applications:
   buildpack: java_buildpack
   path: ./build/libs/company.jar
   random-route: true
+  services:
+   - configserver
