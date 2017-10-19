@@ -1,1 +1,8 @@
 ---
+
+spring:
+  profiles: cloud
+eureka:
+  instance:
+    hostname: ${vcap.application.uris[0]}
+    nonsecureport: 80
